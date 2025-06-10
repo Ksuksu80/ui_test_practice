@@ -8,3 +8,4 @@ def test_get_posts():
     assert "userId" in response.json()[0]
     print(response.json())
     print("GET Posts API test passed!")
+
